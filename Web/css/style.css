@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background: #4294EF url(../images/bg.jpg);
+}
+
+header{
+	background: #C5C4C4;
+}
+
+#content{
+    background: #FFF ;
+	overflow: hidden;
+}
+article{
+	text-align: justify;
+}
+.img{
+	text-align: center;
+}
+
+footer{
+	color:#FFF;
+    background: #000;
+}
+
+table {
+	font-size: 0.7em;
+}
+
+td,th{
+	text-align: center;
+	vertical-align: center;
+}
+
+
+pre{
+	background: #FFF;
+}
+
+.module{
+	margin:10px;
+	text-align:center;
+	border-radius: 10px;
+}
+
+.bor-t1{
+	border: solid 2px #C3423F; 
+} 
+
+.bor-t2{
+	border: solid 2px #E2A800;
+}
+
+.bor-h{
+	border: solid 2px #5BC0EB;
+}
+
+.bor-p{
+	border: solid 2px #9BC53D;
+}
+
+
+.h3-t{
+	background:  #E2A800;
+	color:  #FFF;
+	padding: 5px;
+}
+.h3-h{
+	background:  #5BC0EB; 
+	color:  #FFF;
+	padding: 5px;
+}
+.h3-p{
+	background:  #9BC53D;
+	color:  #FFF;
+	padding: 5px; 
+}
+
+.actual-sample{
+	font-size: 2.5em;
+}
+
+.three-columns {
+    
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.two-columns {
+    
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
